@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Validation With Regular Expressions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+    <link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+            <h1>Form Validation</h1>
+        </div>
+        <form id="form" action="somewhere.php">
+            <h2>Please fill out this form</h2>
+            <label>Name</label>
+            <input type="text" name="name" id="name" placeholder="Morgan Freeman">
+            <div class="blank" id="name-blank"></div>
+
+            <label>Email</label>
+            <input type="text" name="email" id="email" placeholder="you@gmail.com">
+            <div class="blank" id="email-blank"></div>
+
+            <label>Phone Number</label>
+            <input type="text" name="phone-numer" id="phone-number" placeholder="481-651-8845">
+            <div class="blank" id="phone-blank"></div>
+
+            <label>Zip Code</label>
+            <input type="text" name="zip" id="zip" placeholder="78116">
+            <div class="blank" id="zip-blank"></div>
+
+            <input type="submit" value="submit" id="submit">
+            <div class="success" id="submit-blank"></div>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
